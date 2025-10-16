@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    height: 130vh;
+    height: 140vh;
     display: grid;
     grid-template-rows: 2fr 2fr 2fr 1fr;
     grid-template-columns: 55% 45% ;
@@ -74,3 +74,4 @@ nav{
     padding: 2px;
 
 }
+
