@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    height: 130vh;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 1fr;
+    grid-template-columns: 55% 45% ;
+    background-color: rgb(204, 204, 226);
+    border: solid;
+}
+h1{
+    padding: 10px;
+    margin: 10px auto;
+    border-left: solid 5px;
+    width: 20%;
+    border-bottom: solid;
+    box-shadow: 5px 5px gray;
+    text-align: center;
+}
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 20px;
+    border-bottom: solid;
+    width: 140px;
+}
+img{
+    border-radius: 50%;
+    padding: 20px;
+}
+header{
+    grid-column: 1/-1;
+    padding: 10px;
+    border: solid;
+}
+.info, .loi{
+    padding: 5px;
+    border-left: solid;
+    list-style: inside;
+}
+li span{
+    position: relative;
+    left: -10px;
+}
+.pro, .com{
+    padding: 10px;
+    border-right: solid;
+}
+.h{
+    border-bottom: solid;
+    width: 140px;
+}
+.Informations{
+    border-bottom: solid;
+    width:50%;
+} 
+footer{
+    grid-column: 1/-1;
+    padding: 10px;
+    margin: 0;
+    border: solid;
+}
+.copy{
+    padding: 3px;
+}
+nav{
+    padding: 2px;
+}
