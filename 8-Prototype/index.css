@@ -57,7 +57,10 @@ li span{
 .Informations{
     border-bottom: solid;
     width:50%;
-} 
+}
+td, th{
+    padding: 10px;
+}
 footer{
     grid-column: 1/-1;
     padding: 10px;
@@ -69,4 +72,5 @@ footer{
 }
 nav{
     padding: 2px;
+
 }
